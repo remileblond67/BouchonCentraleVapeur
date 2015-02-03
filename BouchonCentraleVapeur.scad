@@ -4,7 +4,7 @@ diamSocle = 28;
 hauteurSocle = 2.5;
 diamBase = 23.5;
 hauteurBase = 10;
-largeurEcrou = 21.5 ;
+largeurEcrou = 19.6 ;
 hauteurEcrou = 16;
 diamTrou=6;
 margeTrou=22;
@@ -55,7 +55,7 @@ module bouchonInterne() {
         rotate([0,0,30]) {
             for (i=[0:60:360]) {
                 rotate([0,0,i])
-                    translate([largeurEcrou/2,0,diamBase-6.5]) {
+                    translate([largeurEcrou/2,0,diamBase-5.5]) {
                         sphere(2, $fn=20);
                     }
             }
